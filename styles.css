@@ -27,3 +27,28 @@ img {
     border-radius: 1rem;
     padding: 1.6rem;
 }
+
+.controls_wrapper > span {
+    cursor: pointer;
+    color: lightslategray;
+    font-size: 6rem;
+    padding: 2rem;
+}
+
+#currentSong {
+    overflow: hidden;
+}
+
+#songList {
+    overflow: hidden;
+    text-align: left;
+}
+
+li {
+    cursor: pointer;
+    padding: 1.5rem;
+}
+
+li:hover {
+    background: #f3644b;
+}
