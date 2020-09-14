@@ -11,3 +11,9 @@ body {
     padding: 2rem;
     text-align: center;
 }
+
+.player {
+    background: radial-gradient(#211e24, #4f3341);
+    padding: 2rem;
+    border-radius: 2rem;
+}
