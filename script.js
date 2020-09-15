@@ -15,3 +15,5 @@ function createSongList() {
     }
     return list;
 }
+
+document.getElementById('songList').appendChild(createSongList());
