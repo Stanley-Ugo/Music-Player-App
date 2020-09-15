@@ -16,4 +16,5 @@ function createSongList() {
     return list;
 }
 
-document.getElementById('songList').appendChild(createSongList());
+const songList = document.getElementById('songList');
+songList.appendChild(createSongList());
