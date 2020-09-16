@@ -19,4 +19,6 @@ function createSongList() {
 const songList = document.getElementById('songList');
 songList.appendChild(createSongList());
 
-songList.onclick
+songList.onclick = function (event) {
+    const source = document.getElementById('source');
+}
