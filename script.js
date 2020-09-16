@@ -19,11 +19,12 @@ function createSongList() {
 const songList = document.getElementById('songList');
 songList.appendChild(createSongList());
 
-songList.onclick = function (event) {
-    const source = document.getElementById('source');
-    source.src = "songs/" + event.target.innerText;
+songList.onclick = function (e) {
+    
+    const source = document.getElementById("source");
+    source.src = "songs/" + e.target.innerText;
 
-    const player = document.getElementById("player");
+    const player = document.getElementById('player');
     player.load();
     player.play();
-}
+};
