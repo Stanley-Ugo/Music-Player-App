@@ -21,5 +21,9 @@ songList.appendChild(createSongList());
 
 songList.onclick = function (event) {
     const source = document.getElementById('source');
-    source.src = "songs/"+event.target.innerText;
+    source.src = "songs/" + event.target.innerText;
+
+    const player = document.getElementById("player");
+    player.load();
+    player.play();
 }
