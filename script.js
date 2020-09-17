@@ -6,6 +6,8 @@ const songs = [
     "05. A.mp3"
 ];
 
+const player = document.getElementById('player');
+
 function createSongList() {
     const list = document.createElement('ol');
     for(let i = 0; i < songs.length; i++) {
@@ -26,7 +28,10 @@ songList.onclick = function (e) {
 
     document.querySelector('#currentSong').innerText = `Now Playing: ${e.target.innerText}`;
 
-    const player = document.getElementById('player');
     player.load();
     player.play();
 };
+
+function playAudio() {
+    
+}
