@@ -33,5 +33,11 @@ songList.onclick = function (e) {
 };
 
 function playAudio() {
+    if(player.readyState) {
+        player.play();
+    }
+};
+
+function pauseAudio() {
     
 }
