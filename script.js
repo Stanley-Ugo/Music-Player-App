@@ -24,6 +24,8 @@ songList.onclick = function (e) {
     const source = document.getElementById("source");
     source.src = "songs/" + e.target.innerText;
 
+    document.querySelector('#currentSong').innerText
+
     const player = document.getElementById('player');
     player.load();
     player.play();
