@@ -39,5 +39,5 @@ function playAudio() {
 };
 
 function pauseAudio() {
-    
+    player.pause();
 }
