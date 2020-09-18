@@ -44,3 +44,6 @@ function pauseAudio() {
 
 const slider = document.getElementById('volumeSlider');
 
+slider.oninput = function(e) {
+    
+}
