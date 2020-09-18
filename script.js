@@ -41,3 +41,6 @@ function playAudio() {
 function pauseAudio() {
     player.pause();
 }
+
+const slider = document.getElementById('volumeSlider');
+
