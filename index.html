@@ -9,7 +9,7 @@
 <body>
     <div class="player">
         <img src="headphones.svg" alt="headphones image">
-        <audio id="player">
+        <audio id="player" ontimeupdate="updateProgress()">
             <source id="source" />
             Audio Not supported
         </audio>
