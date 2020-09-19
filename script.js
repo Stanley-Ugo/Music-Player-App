@@ -50,5 +50,5 @@ slider.oninput = function(e) {
 };
 
 function updateProgress() {
-    
+    const progressBar = document.getElementById('progress');
 }
