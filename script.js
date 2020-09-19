@@ -48,3 +48,7 @@ slider.oninput = function(e) {
     const volume = e.target.value;
     player.volume = volume;
 };
+
+function updateProgress() {
+    
+}
